@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am a reliable and skilled Full Stack Website Developer with a strong track record of over 3 years in creating dynamic, responsive, and fully functional web applications. My expertise spans a range of technologies, including Python, HTML, CSS, Bootstrap 5, JavaScript, and Flask. I have demonstrated my proficiency in building RESTful APIs and web applications using Flask, effectively communicating with databases like MySQL, PostgreSQL, and MongoDB.
+I am a reliable and skilled Full Stack Website Developer with a strong track record of over 4 years in creating dynamic, responsive, and fully functional web applications. My expertise spans a range of technologies, including Python, HTML, CSS, Bootstrap 5, JavaScript, and Flask. I have demonstrated my proficiency in building RESTful APIs and web applications using Flask, effectively communicating with databases like MySQL, PostgreSQL, and MongoDB.
 
 My commitment to excellence is reflected in my consistent five-star reputation on Fiverr, where I've delivered high-quality websites using popular CMS platforms such as WordPress and Wix, ensuring client satisfaction.
 
