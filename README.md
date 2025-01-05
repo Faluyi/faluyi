@@ -1,5 +1,5 @@
 🌟 **Full Stack Developer | Web Automation & Bot Development | AI Integration | API Specialist** 🌟 
-Hi there! 👋 I’m **Faluyi Isaiah**, a Top Rated freelancer and results-driven Full Stack Developer with over 4 years of experience delivering dynamic, responsive, and intelligent solutions. I specialize in **backend development**, **bot automation**, **API integrations**, and **AI-driven applications**, consistently providing scalable solutions tailored to your business needs.  
+Hi there! 👋 I’m **Faluyi Isaiah**, a Top Rated freelancer and results-driven Full Stack Developer with over 4 years of experience delivering dynamic, responsive, and intelligent solutions. I specialize in **backend development**, **bot automation**, **API integrations(REST and Graphql)**, and **AI-driven applications**, consistently providing scalable solutions tailored to your business needs.  
 
 ---
 
