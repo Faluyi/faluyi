@@ -1,65 +1,48 @@
-🌟 **Full Stack Developer | Web Automation & Bot Development | AI Integration | API Specialist** 🌟 
-Hi there! 👋 I’m **Faluyi Isaiah**, a Top Rated freelancer and results-driven Full Stack Developer with over 4 years of experience delivering dynamic, responsive, and intelligent solutions. I specialize in **backend development**, **bot automation**, **API integrations(REST and Graphql)**, and **AI-driven applications**, consistently providing scalable solutions tailored to your business needs.  
+# Isaiah A. Faluyi
+
+**AI Engineer — LLM systems for messy, real-world documents.**
+
+Most LLM projects demo beautifully and fall apart in production. I work on the ones that can't.
+
+I build extraction pipelines that turn unstructured real-world inputs — scans, handwriting, faxes, forms — into structured, trustworthy data, and the evaluation infrastructure that proves the accuracy number is real rather than the best of five runs.
+
+Currently: production healthcare intake automation, where a single misread character in a medical code is a total failure.
 
 ---
 
-💼 **What I Bring to the Table**  
+### What I work on
 
-### ✅ **Web Development**  
-- Development of full-stack web applications using **Flask**, **Django**, **HTML**, **CSS**, **Bootstrap 5**, **Tailwind**, and **JavaScript**.  
-- Expertise in **CMS platforms** like **WordPress** and **Wix**, creating SEO-friendly and visually compelling websites.  
+**Document AI & extraction** — OCR, handwriting, LLM extraction, layered validation and correction pipelines
 
-### ✅ **Bot Development & Web Automation**  
-- Creation of efficient bots for data scraping, task automation, and workflow optimization using **Selenium**, **BeautifulSoup**, and **APIs**.  
-- **Key Examples**:  
-   - **Open-Parley**: AI-powered blog commenter that scrapes content, generates intelligent responses via **OpenAI**, and posts comments automatically.  
-   - **Discord Automation**: Developed bots for moderation, scheduling, and server interactions.  
-   - **Reddit Automation**: Fetches and interacts with posts/subreddits for content aggregation and engagement.  
-   - **MTG Card Scraper**: Automates the scraping of Magic: The Gathering card data for analysis and organization.  
-   - **Outlook Mail Automation**: Automated inbox management, filtering, and task assignments via custom scripts.  
+**Evaluation & reliability** — golden regression suites, non-determinism handling, confidence gating, hallucination containment
 
-### ✅ **AI Integration & Deployment**  
-- Seamless integration of AI models like **OpenAI GPT** and **OpenCV** for innovative features and intelligent workflows.  
-- **Notable Projects**:  
-   - **Phish-GPT**: Generates realistic phishing emails for security awareness training.  
-   - **Image Recognition-Based Access Control**: Uses hand gestures for door access control.  
+**Agentic systems** — multi-agent orchestration, tool use, LLM-driven workflows
 
-### ✅ **API Integration & Development**  
-- Building robust **RESTful APIs** with **Flask**, **SQLAlchemy**, and **PostgreSQL**.  
-- Advanced integrations with APIs such as **Twilio**, **Twitter(X)**, **Discord**, **Notion**, **Airtable**, **Zapier**, and more.  
-- **Example**: Automation solutions using **Notion API**, **Reddit API**, and **Discord API** for workflow optimization.  
-
-### ✅ **Database Management**  
-- Expertise in managing both structured and unstructured data using **MySQL**, **PostgreSQL**, **MongoDB**, and **Redis**.  
+**Backend** — Python, Java, FastAPI, Django, AWS, distributed services
 
 ---
 
-🚀 **Recent Projects**  
-- **Discord Automation**: Designed bots for Discord server moderation, task scheduling, and user interaction.  
-- **Reddit Automation**: Built tools for content scraping, analysis, and automated engagement.  
-- **MTG Card Scraper**: Automated the collection and analysis of Magic: The Gathering card data for strategic use.  
-- **Outlook Mail Automation**: Created scripts for managing and automating email tasks, including filtering and task delegation.  
-- **Waste Management App**: Integrated **OpenStreetMap** with role-based access control for a smarter waste management system.  
-- **Phish-GPT**: Automated phishing email generation for security testing.  
-- **Fyyur Platform**: Venue and artist booking platform powered by **Flask** and **PostgreSQL**.  
-- **Trivia API**: Built with Flask for seamless integration with React apps.  
+### How I think about LLM systems
+
+A few things I've learned building extraction into a domain where being wrong has consequences:
+
+- **A correction should never be a guess.** Every automated fix in a pipeline I build requires independent evidence — a clean copy elsewhere in the document, an explicit label, a second source agreeing at the same coordinate. Bounded, gated, unique-nearest. Otherwise you are not correcting errors, you are manufacturing confident ones.
+- **Report the distribution, not the best run.** Vision models read handwriting differently every time. If your accuracy swings 88–92% run to run, the honest number is "high-80s to low-90s," not the 92 you screenshot. A single run's score is a draw from a distribution.
+- **Classify failures by lever, not by symptom.** Some misses are pipeline bugs. Some are perception floors that no amount of engineering will fix. Knowing which is which is the difference between a productive quarter and a wasted one.
+- **Codes are the worst possible OCR target.** No language priors, no redundancy, exact-match scoring, character-level precision. A `3` scrawled like a `5` is an unrecoverable coin flip. The leverage is structural — find the clean copy printed elsewhere — not in expecting perception to nail every glyph.
 
 ---
 
-🛠️ **Tech Stack**  
-**Frontend**: HTML | CSS | JavaScript (ES6+) | Bootstrap 5 | Tailwind  
-**Backend**: Python | Flask | Django | SQLAlchemy | PostgreSQL | MongoDB  
-**Automation**: Selenium | BeautifulSoup | Zapier | Twilio | Airtable  
-**APIs**: RESTful API Development | API Integration  
-**Tools**: Git | CI/CD | Postman | Cloudinary  
+### Stack
+
+`Python` `Java` `FastAPI` `Django` `Flask` `LangChain` `OpenAI` `Anthropic`
+`AWS (Lambda, S3, API Gateway)` `Docker` `PostgreSQL` `MongoDB` `Redis` `Celery`
+`Selenium` `BeautifulSoup` `Next.js` `TypeScript`
 
 ---
 
-🌟 **Why Work With Me?**  
-✅ **Top Rated freelancer** with a 5-star review history.  
-✅ Strong focus on **clear communication** and **timely delivery**.  
-✅ Expertise in **scalable, user-friendly**, and **intelligent solutions** tailored to your goals.  
+### Elsewhere
 
-Let’s build automation-driven, intelligent solutions together and take your project to the next level! 🚀  
+[LinkedIn](https://linkedin.com/in/faluyiisaiah) · faluyiisaiah@gmail.com · Lagos, Nigeria
 
-📩 **Reach out today, and let’s discuss your needs.**  
+Open to remote AI engineering work — document AI, evaluation infrastructure, agentic systems.
